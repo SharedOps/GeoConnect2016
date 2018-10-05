@@ -66,6 +66,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Features\" />
+    <Folder Include="TimerJobs\" />
+    <Folder Include="Webparts\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

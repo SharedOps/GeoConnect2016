@@ -8,5 +8,6 @@ namespace GeoConnect.Utilities
 {
     public class Class1
     {
+
     }
 }
