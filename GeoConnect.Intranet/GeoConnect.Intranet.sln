@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Intranet", "GeoConnect.Intranet\GeoConnect.Intranet.csproj", "{047E0B91-B15E-48E0-A36A-8D942D4E421C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Models", "GeoConnect.Models\GeoConnect.Models.csproj", "{883E755D-B297-4100-8326-67C9FCCBCFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.DAL", "GeoConnect.DAL\GeoConnect.DAL.csproj", "{C52BD57C-2005-4333-9335-9476EADA41D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.UnitTests", "GeoConnect.UnitTests\GeoConnect.UnitTests.csproj", "{832DFC92-2F6D-478F-93EC-BFEDE4A7789D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Utilities", "GeoConnect.Utilities\GeoConnect.Utilities.csproj", "{80017E2C-1DE9-45A4-96AB-039C943277B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +25,22 @@ Global
 		{047E0B91-B15E-48E0-A36A-8D942D4E421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{047E0B91-B15E-48E0-A36A-8D942D4E421C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{047E0B91-B15E-48E0-A36A-8D942D4E421C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{883E755D-B297-4100-8326-67C9FCCBCFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883E755D-B297-4100-8326-67C9FCCBCFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883E755D-B297-4100-8326-67C9FCCBCFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883E755D-B297-4100-8326-67C9FCCBCFAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C52BD57C-2005-4333-9335-9476EADA41D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C52BD57C-2005-4333-9335-9476EADA41D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C52BD57C-2005-4333-9335-9476EADA41D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C52BD57C-2005-4333-9335-9476EADA41D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{832DFC92-2F6D-478F-93EC-BFEDE4A7789D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{832DFC92-2F6D-478F-93EC-BFEDE4A7789D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{832DFC92-2F6D-478F-93EC-BFEDE4A7789D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{832DFC92-2F6D-478F-93EC-BFEDE4A7789D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80017E2C-1DE9-45A4-96AB-039C943277B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80017E2C-1DE9-45A4-96AB-039C943277B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80017E2C-1DE9-45A4-96AB-039C943277B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80017E2C-1DE9-45A4-96AB-039C943277B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
