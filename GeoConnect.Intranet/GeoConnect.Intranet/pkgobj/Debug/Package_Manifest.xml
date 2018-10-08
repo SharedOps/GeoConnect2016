@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="fd1427b4-c8fb-4e83-bf26-043d916bbec7" SharePointProductVersion="16.0">
+  <Assemblies>
+    <Assembly Location="GeoConnect.Intranet.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="GeoConnect.Intranet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd5d4aef42c71512" Namespace="GeoConnect.Intranet.Webparts.IntranetNews" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="GeoConnect.Intranet_GeoConnect\Feature.xml" />
+  </FeatureManifests>
+</Solution>

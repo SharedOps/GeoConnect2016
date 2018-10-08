@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Application", "G
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.RestServices", "GeoConnect.RestServices\GeoConnect.RestServices.csproj", "{4CFB9F1A-91C0-4220-A253-E5F3EA8489D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.ConsoleApps", "GeoConnect.ConsoleApps\GeoConnect.ConsoleApps.csproj", "{8EBF6687-E9BA-4EA3-A3CE-87D6FF2C50DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{4CFB9F1A-91C0-4220-A253-E5F3EA8489D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CFB9F1A-91C0-4220-A253-E5F3EA8489D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CFB9F1A-91C0-4220-A253-E5F3EA8489D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EBF6687-E9BA-4EA3-A3CE-87D6FF2C50DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EBF6687-E9BA-4EA3-A3CE-87D6FF2C50DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EBF6687-E9BA-4EA3-A3CE-87D6FF2C50DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EBF6687-E9BA-4EA3-A3CE-87D6FF2C50DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

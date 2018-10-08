@@ -49,6 +49,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RetroNotes\RetroNotes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoConnect.DAL\GeoConnect.DAL.csproj">
+      <Project>{c52bd57c-2005-4333-9335-9476eada41d1}</Project>
+      <Name>GeoConnect.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoConnect.Models\GeoConnect.Models.csproj">
+      <Project>{883e755d-b297-4100-8326-67c9fccbcfab}</Project>
+      <Name>GeoConnect.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoConnect.Utilities\GeoConnect.Utilities.csproj">
+      <Project>{80017e2c-1de9-45a4-96ab-039c943277b8}</Project>
+      <Name>GeoConnect.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

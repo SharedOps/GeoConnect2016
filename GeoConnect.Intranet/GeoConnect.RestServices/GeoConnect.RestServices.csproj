@@ -130,6 +130,7 @@
   <ItemGroup>
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\RetroNotesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -149,8 +150,25 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeoConnect.Application\GeoConnect.Application.csproj">
+      <Project>{b6544b57-eb0e-4c6d-96af-c33a085f9328}</Project>
+      <Name>GeoConnect.Application</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoConnect.DAL\GeoConnect.DAL.csproj">
+      <Project>{c52bd57c-2005-4333-9335-9476eada41d1}</Project>
+      <Name>GeoConnect.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoConnect.Models\GeoConnect.Models.csproj">
+      <Project>{883e755d-b297-4100-8326-67c9fccbcfab}</Project>
+      <Name>GeoConnect.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GeoConnect.Utilities\GeoConnect.Utilities.csproj">
+      <Project>{80017e2c-1de9-45a4-96ab-039c943277b8}</Project>
+      <Name>GeoConnect.Utilities</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

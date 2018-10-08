@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="GeoConnect.Intranet Custom Features" Id="f4701393-439c-4404-b84f-8c31a57ad61f" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="IntranetNews\Elements.xml" />
+    <ElementFile Location="IntranetNews\IntranetNews.webpart" />
+  </ElementManifests>
+</Feature>

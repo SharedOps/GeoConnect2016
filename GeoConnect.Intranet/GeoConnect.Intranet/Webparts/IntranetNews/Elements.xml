@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="IntranetNews" List="113" Url="_catalogs/wp">
+    <File Path="IntranetNews\IntranetNews.webpart" Url="GeoConnect.Intranet_IntranetNews.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="GeoConnect" />
+    </File>
+  </Module>
+</Elements>
