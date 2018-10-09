@@ -3,6 +3,6 @@
     public static class SPConstants
     {
         public const string siteurl = "http://geoconnect:24";
-        public const string IntranetNewsListName = "IntranetNews";
+        public const string IntranetNewsListName = "Cultural Annoucements";
     }
 }

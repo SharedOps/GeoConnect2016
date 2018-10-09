@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Models\bin\Debug\GeoConnect.Models.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Models\bin\Debug\GeoConnect.Models.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Models\obj\Debug\GeoConnect.Models.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Models\obj\Debug\GeoConnect.Models.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Models\obj\Debug\GeoConnect.Models.pdb

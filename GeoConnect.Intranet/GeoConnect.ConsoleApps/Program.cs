@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.SharePoint;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,9 +16,8 @@ namespace GeoConnect.ConsoleApps
                 string url      = GeoConnect.Utilities.Constants.SPConstants.siteurl;
                 string listname = GeoConnect.Utilities.Constants.SPConstants.IntranetNewsListName;
 
-                Tests.SPTests.getItemsFromUtility(url, listname);
+                GeoConnect.ConsoleApps.Tests.SPTests.getListItems(url, listname);
                 Console.ReadLine();
-
 
 
             }
@@ -27,6 +27,6 @@ namespace GeoConnect.ConsoleApps
 
             }
 
-        }
+        }       
     }
 }

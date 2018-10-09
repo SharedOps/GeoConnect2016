@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\bin\Debug\GeoConnect.UnitTests.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\bin\Debug\GeoConnect.UnitTests.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\obj\Debug\GeoConnect.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\obj\Debug\GeoConnect.UnitTests.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.UnitTests\obj\Debug\GeoConnect.UnitTests.pdb

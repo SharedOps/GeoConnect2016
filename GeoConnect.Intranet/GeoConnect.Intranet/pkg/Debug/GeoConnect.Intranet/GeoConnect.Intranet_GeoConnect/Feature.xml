@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="GeoConnect.Intranet Custom Features" Id="f4701393-439c-4404-b84f-8c31a57ad61f" Scope="Site">
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="f4701393-439c-4404-b84f-8c31a57ad61f" ReceiverAssembly="GeoConnect.Intranet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd5d4aef42c71512" ReceiverClass="GeoConnect.Intranet.Features.GeoConnect.GeoConnectEventReceiver" Scope="Site" Title="GeoConnect.Intranet Custom Features">
   <ElementManifests>
     <ElementManifest Location="IntranetNews\Elements.xml" />
     <ElementFile Location="IntranetNews\IntranetNews.webpart" />
+    <ElementManifest Location="SystemAministratorDetails\Elements.xml" />
+    <ElementFile Location="SystemAministratorDetails\SystemAministratorDetails.webpart" />
   </ElementManifests>
 </Feature>

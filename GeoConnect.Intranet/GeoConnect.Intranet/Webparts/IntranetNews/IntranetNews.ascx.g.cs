@@ -43,6 +43,10 @@ namespace GeoConnect.Intranet.Webparts.IntranetNews {
             "artCodeGenerator", "14.0.0.0")]
         protected global::System.Web.UI.WebControls.Label Label1;
         
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "14.0.0.0")]
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebPartCodeGenerator", "14.0.0.0")]
         public static implicit operator global::System.Web.UI.TemplateControl(IntranetNews target) 
         {
@@ -65,11 +69,28 @@ namespace GeoConnect.Intranet.Webparts.IntranetNews {
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
             "artCodeGenerator", "14.0.0.0")]
+        private global::System.Web.UI.WebControls.Label @__BuildControlLabel2() {
+            global::System.Web.UI.WebControls.Label @__ctrl;
+            @__ctrl = new global::System.Web.UI.WebControls.Label();
+            this.Label2 = @__ctrl;
+            @__ctrl.ApplyStyleSheetSkin(this.Page);
+            @__ctrl.ID = "Label2";
+            @__ctrl.Text = "Label";
+            return @__ctrl;
+        }
+        
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Never)]
+        [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +
+            "artCodeGenerator", "14.0.0.0")]
         private void @__BuildControlTree(global::GeoConnect.Intranet.Webparts.IntranetNews.IntranetNews @__ctrl) {
             global::System.Web.UI.WebControls.Label @__ctrl1;
             @__ctrl1 = this.@__BuildControlLabel1();
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(@__ctrl1);
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<br />\r\n<br />\r\n"));
+            global::System.Web.UI.WebControls.Label @__ctrl2;
+            @__ctrl2 = this.@__BuildControlLabel2();
+            @__parser.AddParsedSubObject(@__ctrl2);
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

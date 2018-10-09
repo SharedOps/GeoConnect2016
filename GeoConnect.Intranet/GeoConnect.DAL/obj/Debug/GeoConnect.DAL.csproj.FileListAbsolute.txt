@@ -47,3 +47,4 @@ C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoCo
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.DAL\bin\Debug\Microsoft.Office.Policy.xml
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.DAL\obj\Debug\GeoConnect.DAL.dll
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.DAL\obj\Debug\GeoConnect.DAL.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.DAL\obj\Debug\GeoConnect.DAL.csprojResolveAssemblyReference.cache

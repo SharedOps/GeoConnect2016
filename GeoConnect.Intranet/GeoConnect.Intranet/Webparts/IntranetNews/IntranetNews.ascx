@@ -8,3 +8,6 @@
 <%@ Control Language="C#" AutoEventWireup="true" CodeBehind="IntranetNews.ascx.cs" Inherits="GeoConnect.Intranet.Webparts.IntranetNews.IntranetNews" %>
 
 <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+<br />
+<br />
+<asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>

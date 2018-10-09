@@ -57,6 +57,9 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Features\GeoConnect\GeoConnect.EventReceiver.cs">
+      <DependentUpon>GeoConnect.feature</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Webparts\IntranetNews\IntranetNews.ascx.cs">
       <DependentUpon>IntranetNews.ascx</DependentUpon>
@@ -66,12 +69,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>IntranetNews.ascx</DependentUpon>
     </Compile>
+    <Compile Include="Webparts\SystemAministratorDetails\SystemAministratorDetails.ascx.cs">
+      <DependentUpon>SystemAministratorDetails.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Webparts\SystemAministratorDetails\SystemAministratorDetails.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SystemAministratorDetails.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Features\GeoConnect\GeoConnect.feature">
       <FeatureId>{27dd7bca-6703-4e92-a6cc-4d54f94deb7a}</FeatureId>
     </None>
     <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{63f8a69e-3868-4681-9f4d-b3389ca74dfc}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{fd1427b4-c8fb-4e83-bf26-043d916bbec7}</PackageId>
     </None>
@@ -82,6 +96,10 @@
     <None Include="Webparts\IntranetNews\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{f5d00ccc-0bd4-477f-83c4-d3187cb4233a}</SharePointProjectItemId>
     </None>
+    <None Include="Webparts\SystemAministratorDetails\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2ec9e37e-106f-405c-aa29-704d38368521}</SharePointProjectItemId>
+    </None>
+    <None Include="Webparts\SystemAministratorDetails\SystemAministratorDetails.webpart" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TimerJobs\" />
@@ -90,10 +108,20 @@
     <Content Include="Features\GeoConnect\GeoConnect.Template.xml">
       <DependentUpon>GeoConnect.feature</DependentUpon>
     </Content>
+    <Content Include="Layouts\GeoConnect.Intranet\BootStrap\bootstrap-theme.min.css" />
+    <Content Include="Layouts\GeoConnect.Intranet\BootStrap\bootstrap.min.css" />
+    <Content Include="Layouts\GeoConnect.Intranet\BootStrap\bootstrap.min.js" />
+    <Content Include="Layouts\GeoConnect.Intranet\BootStrap\jquery.min.js" />
+    <Content Include="Layouts\GeoConnect.Intranet\Custom\GeoConnect.css" />
     <Content Include="Webparts\IntranetNews\Elements.xml" />
     <Content Include="Webparts\IntranetNews\IntranetNews.ascx">
       <Generator>SharePointWebPartCodeGenerator</Generator>
       <LastGenOutput>IntranetNews.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="Webparts\SystemAministratorDetails\Elements.xml" />
+    <Content Include="Webparts\SystemAministratorDetails\SystemAministratorDetails.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>SystemAministratorDetails.ascx.g.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

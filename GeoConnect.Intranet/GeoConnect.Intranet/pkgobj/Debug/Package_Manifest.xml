@@ -4,6 +4,7 @@
     <Assembly Location="GeoConnect.Intranet.dll" DeploymentTarget="GlobalAssemblyCache">
       <SafeControls>
         <SafeControl Assembly="GeoConnect.Intranet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd5d4aef42c71512" Namespace="GeoConnect.Intranet.Webparts.IntranetNews" TypeName="*" />
+        <SafeControl Assembly="GeoConnect.Intranet, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd5d4aef42c71512" Namespace="GeoConnect.Intranet.Webparts.SystemAministratorDetails" TypeName="*" />
       </SafeControls>
     </Assembly>
   </Assemblies>

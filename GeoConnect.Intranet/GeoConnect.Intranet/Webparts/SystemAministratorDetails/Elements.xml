@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/" >
+  <Module Name="SystemAministratorDetails" List="113" Url="_catalogs/wp">
+    <File Path="SystemAministratorDetails\SystemAministratorDetails.webpart" Url="GeoConnect.Intranet_SystemAministratorDetails.webpart" Type="GhostableInLibrary" >
+      <Property Name="Group" Value="GeoConnect" />
+    </File>
+  </Module>
+</Elements>

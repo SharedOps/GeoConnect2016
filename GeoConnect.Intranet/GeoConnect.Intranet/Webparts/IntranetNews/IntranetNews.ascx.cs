@@ -27,7 +27,11 @@ namespace GeoConnect.Intranet.Webparts.IntranetNews
         {
             try
             {
-                Label1.Text = SPContext.Current.Web.Title;
+                var web = SPContext.Current.Web;
+                Label1.Text = web.Title + web.Description +" "+ web.IsRootWeb;
+
+                Label2.Text =web.Url.ToString() ;
+                
             }
             catch (Exception ex)
             {
@@ -36,5 +40,7 @@ namespace GeoConnect.Intranet.Webparts.IntranetNews
             }
 
         }
+
+       
     }
 }

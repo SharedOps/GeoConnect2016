@@ -48,3 +48,9 @@ C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoCo
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\obj\Debug\GeoConnect.Application.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\obj\Debug\GeoConnect.Application.dll
 C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\obj\Debug\GeoConnect.Application.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.DAL.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.Models.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.Utilities.dll
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.DAL.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.Models.pdb
+C:\Users\Administrator\Documents\GitHub\GeoConnect2016\GeoConnect.Intranet\GeoConnect.Application\bin\Debug\GeoConnect.Utilities.pdb

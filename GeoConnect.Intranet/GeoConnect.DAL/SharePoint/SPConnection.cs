@@ -101,5 +101,22 @@ namespace GeoConnect.DAL.SharePoint
 
         #endregion
 
+
+
+
+
+        public static SPListCollection getLists(string weburl)
+        {
+            SPListCollection coll = null;
+            coll = GetWeb(weburl).Lists;
+            return coll;
+        }
+
+        public static SPWebCollection getSubsites(string url)
+        {
+            SPWebCollection coll = null;
+            coll = GetWeb(url).Webs;
+            return coll;
+        }
     }
 }
