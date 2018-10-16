@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="fd1427b4-c8fb-4e83-bf26-043d916bbec7" solutionId="fd1427b4-c8fb-4e83-bf26-043d916bbec7" resetWebServer="false" sharePointProductVersion="16.0" name="GeoConnect.Intranet" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="GeoConnect.DAL.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\GeoConnect.DAL\GeoConnect.DAL.csproj" />
+    <projectOutputAssembly location="GeoConnect.Application.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\GeoConnect.Application\GeoConnect.Application.csproj" />
+    <projectOutputAssembly location="GeoConnect.Utilities.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\GeoConnect.Utilities\GeoConnect.Utilities.csproj" />
+  </assemblies>
   <features>
     <featureReference itemId="27dd7bca-6703-4e92-a6cc-4d54f94deb7a" />
   </features>
   <projectItems>
     <projectItemReference itemId="63f8a69e-3868-4681-9f4d-b3389ca74dfc" />
+    <projectItemReference itemId="44cadb46-84a9-4bbf-bd2a-5d94ada1aefa" />
   </projectItems>
 </package>

@@ -3,6 +3,7 @@ using System;
 using System.ComponentModel;
 using System.Web.UI.WebControls.WebParts;
 using System.Data;
+using GeoConnect.DAL;
 
 namespace GeoConnect.Intranet.Webparts.SystemAministratorDetails
 {
@@ -31,7 +32,7 @@ namespace GeoConnect.Intranet.Webparts.SystemAministratorDetails
                 var web = SPContext.Current.Web;
                 getIntranetNews(web.Url, "Intranet News");
 
-
+            
             }
             catch (Exception ex)
             {
@@ -44,15 +45,21 @@ namespace GeoConnect.Intranet.Webparts.SystemAministratorDetails
         {
             try
             {
-                using (SPSite site = new SPSite(url))
-                {
-                    SPWeb web = site.OpenWeb();
-                    SPList list = web.Lists[listname];
-                    SPListItemCollection coll = list.GetItems();
-                    DataTable dt = coll.GetDataTable();
-                    grdListView.DataSource = dt;
-                    grdListView.DataBind();
-                }
+                SPListItemCollection coll = GeoConnect.DAL.SharePoint.SPConnection.GetListItemCollectionNoQuery(url,listname);
+                DataTable dt = coll.GetDataTable();
+                grdListView.DataSource = dt;
+                grdListView.DataBind();
+
+
+                //using (SPSite site = new SPSite(url))
+                //{
+                //    SPWeb web = site.OpenWeb();
+                //    SPList list = web.Lists[listname];
+                //    SPListItemCollection coll = list.GetItems();
+                //    DataTable dt = coll.GetDataTable();
+                //    grdListView.DataSource = dt;
+                //    grdListView.DataBind();
+                //}
             }
             catch (Exception ex)
             {

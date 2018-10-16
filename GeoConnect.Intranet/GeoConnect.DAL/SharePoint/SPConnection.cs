@@ -53,7 +53,7 @@ namespace GeoConnect.DAL.SharePoint
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception ex) 
             {
 
                 throw ex;
@@ -100,9 +100,6 @@ namespace GeoConnect.DAL.SharePoint
         }
 
         #endregion
-
-
-
 
 
         public static SPListCollection getLists(string weburl)

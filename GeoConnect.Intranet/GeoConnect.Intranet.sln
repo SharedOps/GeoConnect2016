@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Intranet", "GeoConnect.Intranet\GeoConnect.Intranet.csproj", "{047E0B91-B15E-48E0-A36A-8D942D4E421C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{80017E2C-1DE9-45A4-96AB-039C943277B8} = {80017E2C-1DE9-45A4-96AB-039C943277B8}
+		{B6544B57-EB0E-4C6D-96AF-C33A085F9328} = {B6544B57-EB0E-4C6D-96AF-C33A085F9328}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoConnect.Models", "GeoConnect.Models\GeoConnect.Models.csproj", "{883E755D-B297-4100-8326-67C9FCCBCFAB}"
 EndProject

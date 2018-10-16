@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.SharePoint;
 using GeoConnect.DAL;
+using Microsoft.SharePoint.Administration;
 
 namespace GeoConnect.ConsoleApps.Tests
 {
@@ -34,7 +35,7 @@ namespace GeoConnect.ConsoleApps.Tests
                 Console.WriteLine(ex.Message.ToString());
             }
         }
-
+       
         public static void getListItems(string url,string listname)
         {
             SPListItemCollection lists = GeoConnect.DAL.SharePoint.SPConnection.GetListItemCollectionNoQuery(url, listname);
@@ -43,6 +44,21 @@ namespace GeoConnect.ConsoleApps.Tests
                 Console.WriteLine(item[0].ToString()+"   "+ item[3].ToString() + "   " + item[4].ToString());
             }
            
+        }
+
+
+        public static void getListItemsWithQuery(string url, string listname)
+        {
+            string filter = "HR";
+            SPQuery query = new SPQuery();
+            query.Query = "<Where><Eq><FieldRef Name='NewsType' /><Value Type='Choice'>"+filter+"</Value></Eq></Where><OrderBy><FieldRef Name='Created' Ascending='False' /></OrderBy>";
+            query.ViewFields = "<FieldRef Name='Title' /><FieldRef Name='NewsType' /><FieldRef Name='KpiDescription' /><FieldRef Name='ID' />";
+            SPListItemCollection lists = GeoConnect.DAL.SharePoint.SPConnection.GetListItemCollection(query,url, listname);
+            foreach (SPItem item in lists)
+            {
+                Console.WriteLine(item["Title"].ToString());
+            }
+
         }
         public static void getItemsFromUtility(string url, string listname)
         {
@@ -61,7 +77,7 @@ namespace GeoConnect.ConsoleApps.Tests
             }
         }
 
-        #region sites in a particular web application
+        // sites in a particular web application
         public static void getSites(String url)
         {
             using (SPSite site = new SPSite(url))
@@ -72,9 +88,7 @@ namespace GeoConnect.ConsoleApps.Tests
                 }
             }
         }
-        #endregion
-
-
+       
         //Get Sub Sites
         public static void getSubSites(String url)
         {
@@ -102,5 +116,38 @@ namespace GeoConnect.ConsoleApps.Tests
             }
         }
 
+        public static void getWeb(string url)
+        {
+            SPWeb web = GeoConnect.DAL.SharePoint.SPConnection.GetWeb(url);
+            Console.WriteLine(web.Title);
+        }
+
+        public static void getAllWebApplications()
+        {
+            string web2 = "";
+            SPWebApplicationCollection colWebApll = SPWebService.ContentService.WebApplications;
+            foreach (SPWebApplication webApp in colWebApll)
+            {
+                web2 += "Web Application Name (SPWebApplication):"+webApp.Name+"\n"; ;
+                for (int i = 0; i < webApp.Sites.Count; i++)
+                {                  
+                    SPSite site = webApp.Sites[i];
+                    web2 += "Site Collection URL (SPSite):"+site.Url+"\n"; ;
+                    for (int j = 0; j < site.AllWebs.Count; j++)
+                    {
+                        
+                        SPWeb web = site.AllWebs[j];
+                        for (int k= 0; k < web.Webs.Count; k++)
+                        {
+                            SPWeb web1 = web.Webs[k];
+                            web2 += "Sub Sites URL(SPWeb):"+web1.Url+"\n"; ;                                                  
+                        }                    
+                    }
+                    web2 += "\n";
+                }
+                web2 += "-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐-­‐\n";
+            }
+            Console.WriteLine(web2);
+        }        
     }
 }

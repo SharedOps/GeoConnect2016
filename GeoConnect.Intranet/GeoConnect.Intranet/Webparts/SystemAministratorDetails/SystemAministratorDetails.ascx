@@ -9,10 +9,10 @@
 
 <asp:Label ID="lblSystemAdministratordetails" runat="server"></asp:Label>
 
-
-
-
 <asp:GridView ID="grdListView" runat="server">
 
 
 </asp:GridView>
+<link href="../../_layouts/16/GeoConnect.Intranet/BootStrap/bootstrap.min.css" rel="stylesheet" />
+<script src="../../_layouts/16/GeoConnect.Intranet/BootStrap/jquery.min.js"></script>
+<script src="../../_layouts/16/GeoConnect.Intranet/BootStrap/bootstrap.min.js"></script>

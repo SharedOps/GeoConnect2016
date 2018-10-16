@@ -85,11 +85,13 @@ namespace GeoConnect.Intranet.Webparts.SystemAministratorDetails {
             @__ctrl1 = this.@__BuildControllblSystemAdministratordetails();
             System.Web.UI.IParserAccessor @__parser = ((System.Web.UI.IParserAccessor)(@__ctrl));
             @__parser.AddParsedSubObject(@__ctrl1);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n\r\n\r\n\r\n"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n\r\n"));
             global::System.Web.UI.WebControls.GridView @__ctrl2;
             @__ctrl2 = this.@__BuildControlgrdListView();
             @__parser.AddParsedSubObject(@__ctrl2);
-            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n"));
+            @__parser.AddParsedSubObject(new System.Web.UI.LiteralControl("\r\n<link href=\"../../_layouts/16/GeoConnect.Intranet/BootStrap/bootstrap.min.css\" " +
+                        "rel=\"stylesheet\" />\r\n<script src=\"../../_layouts/16/GeoConnect.Intranet/BootStra" +
+                        "p/jquery.min.js\"></script>\r\n"));
         }
         
         [GeneratedCodeAttribute("Microsoft.VisualStudio.SharePoint.ProjectExtensions.CodeGenerators.SharePointWebP" +

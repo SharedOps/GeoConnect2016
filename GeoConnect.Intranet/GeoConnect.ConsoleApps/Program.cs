@@ -16,10 +16,9 @@ namespace GeoConnect.ConsoleApps
                 string url      = GeoConnect.Utilities.Constants.SPConstants.siteurl;
                 string listname = GeoConnect.Utilities.Constants.SPConstants.IntranetNewsListName;
 
-                GeoConnect.ConsoleApps.Tests.SPTests.getListItems(url, listname);
-                Console.ReadLine();
-
-
+                //GeoConnect.ConsoleApps.Tests.SPTests.getAllWebApplications();
+                GeoConnect.ConsoleApps.Tests.SPTests.getListItemsWithQuery(url, listname);
+                Console.ReadLine(); 
             }
             catch (Exception ex)
             {

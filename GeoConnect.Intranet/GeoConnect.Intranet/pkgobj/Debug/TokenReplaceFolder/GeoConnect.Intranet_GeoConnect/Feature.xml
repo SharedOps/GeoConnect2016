@@ -5,5 +5,7 @@
     <ElementFile Location="IntranetNews\IntranetNews.webpart" />
     <ElementManifest Location="SystemAministratorDetails\Elements.xml" />
     <ElementFile Location="SystemAministratorDetails\SystemAministratorDetails.webpart" />
+    <ElementManifest Location="Forex\Elements.xml" />
+    <ElementFile Location="Forex\Forex.webpart" />
   </ElementManifests>
 </Feature>
